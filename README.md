@@ -1,7 +1,8 @@
 # AWS Streaming Data Guide
 
 **Introduction:**
-Welcome to the guide on how to set up data streams on AWS. This README provides an overview of the steps detailed in the blog titled [Build a Real Time Data Streaming System with Amazon Kinesis Data Streams](https://medium.com/@kevinkiruri/build-a-real-time-data-streaming-system-with-amazon-kinesis-data-streams-08d62301d1cd), authored by [Kevin Kiruri](https://www.linkedin.com/in/kevin-kiruri/).
+Welcome to the guide on how to set up data streams on AWS. This README provides an overview of the, developed by [K.YUVA SHANKAR](https://www.linkedin.com/in/yuva-shankar-4ba786228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app).
+
 
 **Steps:**
 
@@ -19,4 +20,5 @@ Welcome to the guide on how to set up data streams on AWS. This README provides 
 
 ---
 
-*Author: [Kevin Kiruri](https://www.linkedin.com/in/kevin-kiruri/)*
+*Developed by [K.YUVA SHANKAR](https://www.linkedin.com/in/yuva-shankar-4ba786228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app).
+*
