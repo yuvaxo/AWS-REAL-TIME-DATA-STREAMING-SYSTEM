@@ -21,6 +21,7 @@ Welcome to the guide on how to set up data streams on AWS. This README provides 
 
 
 **Introduction**
+
 Real-time data streaming is a powerful method to ingest, process, and analyze data as it arrives in your system. AWS offers a suite of services that seamlessly integrate to provide a scalable and efficient real-time data processing solution. In this guide, you will learn how to set up a real-time data streaming pipeline using AWS Kinesis, S3, and Lambda.
 
 **Prerequisites**
