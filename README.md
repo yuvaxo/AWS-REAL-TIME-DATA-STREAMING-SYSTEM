@@ -98,7 +98,7 @@ Ensure that the consumer Lambda functions are processing the data as expected.
 If everything is set up correctly, you should see logs indicating successful data ingestion and processing.
 Clean-Up
 
-**After completing your testing, it’s important to clean up the resources to avoid unnecessary charges.**
+# After completing your testing, it’s important to clean up the resources to avoid unnecessary charges.
 
 **Delete the Kinesis Stream:**
 Go to the Kinesis service and delete the stream you created.
