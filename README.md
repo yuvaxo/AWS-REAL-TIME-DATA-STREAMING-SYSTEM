@@ -69,29 +69,6 @@ Provide a name for your function, e.g., KinesisProducerLambda.
 Select Python 3.x or Node.js as the runtime.
 Under Permissions, choose Use an existing role and select the role you created earlier (LambdaKinesisRole).
 
-**Write or paste the code that will produce data to the Kinesis stream. Here's a basic example in Python**
-
-
-import boto3
-import json
-import os
-
-kinesis = boto3.client('kinesis')
-
-def lambda_handler(event, context):
-    data = {
-        'message': 'Hello, this is a sample data stream!'
-    }
-    response = kinesis.put_record(
-        StreamName=os.environ['KINESIS_STREAM_NAME'],
-        Data=json.dumps(data),
-        PartitionKey='partitionKey'
-    )
-    return response
-Set up environment variables for the function, particularly the KINESIS_STREAM_NAME.
-
-Click on Deploy to save your function.
-
 **Step 5: Set Up S3 Event Notification**
 
 Go to your S3 bucket in the AWS Management Console.
@@ -106,15 +83,6 @@ Save the configuration.
 
 Repeat the process of creating a Lambda function as described in Step 4.
 This time, your function should consume data from the Kinesis stream, process it, and potentially store the results in S3 or trigger another service.
-
-**Here’s an example in Python that reads from Kinesis:**
-
-
-def lambda_handler(event, context):
-    for record in event['Records']:
-        payload = record['kinesis']['data']
-        print(f"Decoded payload: {payload}")
-Deploy the function once you’re done.
 
 **Step 7: Upload a Text File to S3**
 
